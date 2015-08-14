@@ -2,13 +2,13 @@
 {
     public sealed class Note
     {
-        public Note(decimal pitch, int duration)
+        public Note(Pitch pitch, int duration)
         {
             m_pitch = pitch;
             m_duration = duration;
         }
 
-        public decimal Pitch
+        public Pitch Pitch
         {
             get { return m_pitch; }
         }
@@ -18,7 +18,7 @@
             get { return m_duration; }
         }
 
-        private readonly decimal m_pitch;
+        private readonly Pitch m_pitch;
         private readonly int m_duration;
     }
 }

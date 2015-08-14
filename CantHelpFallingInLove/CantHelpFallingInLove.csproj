@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Constants.cs" />
     <Compile Include="Duration.cs" />
     <Compile Include="Note.cs" />
     <Compile Include="Pitch.cs" />

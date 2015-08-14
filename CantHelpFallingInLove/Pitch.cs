@@ -1,115 +1,115 @@
 ﻿namespace CantHelpFallingInLove
 {
-    public static class Pitch
+    public enum Pitch
     {
-        public const decimal Rest = 0.0m;
-        public const decimal C0 = 16.35m;
-        public const decimal CSharp0 = 17.32m;
-        public const decimal D0 = 18.35m;
-        public const decimal DSharp0 = 19.45m;
-        public const decimal E0 = 20.6m;
-        public const decimal F0 = 21.83m;
-        public const decimal FSharp0 = 23.12m;
-        public const decimal G0 = 24.5m;
-        public const decimal GSharp0 = 25.96m;
-        public const decimal A0 = 27.5m;
-        public const decimal ASharp0 = 29.14m;
-        public const decimal B0 = 30.87m;
-        public const decimal C1 = 32.7m;
-        public const decimal CSharp1 = 34.65m;
-        public const decimal D1 = 36.71m;
-        public const decimal DSharp1 = 38.89m;
-        public const decimal E1 = 41.2m;
-        public const decimal F1 = 43.65m;
-        public const decimal FSharp1 = 46.25m;
-        public const decimal G1 = 49m;
-        public const decimal GSharp1 = 51.91m;
-        public const decimal A1 = 55m;
-        public const decimal ASharp1 = 58.27m;
-        public const decimal B1 = 61.74m;
-        public const decimal C2 = 65.41m;
-        public const decimal CSharp2 = 69.3m;
-        public const decimal D2 = 73.42m;
-        public const decimal DSharp2 = 77.78m;
-        public const decimal E2 = 82.41m;
-        public const decimal F2 = 87.31m;
-        public const decimal FSharp2 = 92.5m;
-        public const decimal G2 = 98m;
-        public const decimal GSharp2 = 103.83m;
-        public const decimal A2 = 110m;
-        public const decimal ASharp2 = 116.54m;
-        public const decimal B2 = 123.47m;
-        public const decimal C3 = 130.81m;
-        public const decimal CSharp3 = 138.59m;
-        public const decimal D3 = 146.83m;
-        public const decimal DSharp3 = 155.56m;
-        public const decimal E3 = 164.81m;
-        public const decimal F3 = 174.61m;
-        public const decimal FSharp3 = 185m;
-        public const decimal G3 = 196m;
-        public const decimal GSharp3 = 207.65m;
-        public const decimal A3 = 220m;
-        public const decimal ASharp3 = 233.08m;
-        public const decimal B3 = 246.94m;
-        public const decimal C4 = 261.63m;
-        public const decimal CSharp4 = 277.18m;
-        public const decimal D4 = 293.66m;
-        public const decimal DSharp4 = 311.13m;
-        public const decimal E4 = 329.63m;
-        public const decimal F4 = 349.23m;
-        public const decimal FSharp4 = 369.99m;
-        public const decimal G4 = 392m;
-        public const decimal GSharp4 = 415.3m;
-        public const decimal A4 = 440m;
-        public const decimal ASharp4 = 466.16m;
-        public const decimal B4 = 493.88m;
-        public const decimal C5 = 523.25m;
-        public const decimal CSharp5 = 554.37m;
-        public const decimal D5 = 587.33m;
-        public const decimal DSharp5 = 622.25m;
-        public const decimal E5 = 659.25m;
-        public const decimal F5 = 698.46m;
-        public const decimal FSharp5 = 739.99m;
-        public const decimal G5 = 783.99m;
-        public const decimal GSharp5 = 830.61m;
-        public const decimal A5 = 880m;
-        public const decimal ASharp5 = 932.33m;
-        public const decimal B5 = 987.77m;
-        public const decimal C6 = 1046.5m;
-        public const decimal CSharp6 = 1108.73m;
-        public const decimal D6 = 1174.66m;
-        public const decimal DSharp6 = 1244.51m;
-        public const decimal E6 = 1318.51m;
-        public const decimal F6 = 1396.91m;
-        public const decimal FSharp6 = 1479.98m;
-        public const decimal G6 = 1567.98m;
-        public const decimal GSharp6 = 1661.22m;
-        public const decimal A6 = 1760m;
-        public const decimal ASharp6 = 1864.66m;
-        public const decimal B6 = 1975.53m;
-        public const decimal C7 = 2093m;
-        public const decimal CSharp7 = 2217.46m;
-        public const decimal D7 = 2349.32m;
-        public const decimal DSharp7 = 2489.02m;
-        public const decimal E7 = 2637.02m;
-        public const decimal F7 = 2793.83m;
-        public const decimal FSharp7 = 2959.96m;
-        public const decimal G7 = 3135.96m;
-        public const decimal GSharp7 = 3322.44m;
-        public const decimal A7 = 3520m;
-        public const decimal ASharp7 = 3729.31m;
-        public const decimal B7 = 3951.07m;
-        public const decimal C8 = 4186.01m;
-        public const decimal CSharp8 = 4434.92m;
-        public const decimal D8 = 4698.63m;
-        public const decimal DSharp8 = 4978.03m;
-        public const decimal E8 = 5274.04m;
-        public const decimal F8 = 5587.65m;
-        public const decimal FSharp8 = 5919.91m;
-        public const decimal G8 = 6271.93m;
-        public const decimal GSharp8 = 6644.88m;
-        public const decimal A8 = 7040m;
-        public const decimal ASharp8 = 7458.62m;
-        public const decimal B8 = 7902.13m;
+        Rest = 0,
+        C0,
+        CSharp0,
+        D0,
+        DSharp0,
+        E0,
+        F0,
+        FSharp0,
+        G0,
+        GSharp0,
+        A0,
+        ASharp0,
+        B0,
+        C1,
+        CSharp1,
+        D1,
+        DSharp1,
+        E1,
+        F1,
+        FSharp1,
+        G1,
+        GSharp1,
+        A1,
+        ASharp1,
+        B1,
+        C2,
+        CSharp2,
+        D2,
+        DSharp2,
+        E2,
+        F2,
+        FSharp2,
+        G2,
+        GSharp2,
+        A2,
+        ASharp2,
+        B2,
+        C3,
+        CSharp3,
+        D3,
+        DSharp3,
+        E3,
+        F3,
+        FSharp3,
+        G3,
+        GSharp3,
+        A3,
+        ASharp3,
+        B3,
+        C4,
+        CSharp4,
+        D4,
+        DSharp4,
+        E4,
+        F4,
+        FSharp4,
+        G4,
+        GSharp4,
+        A4,
+        ASharp4,
+        B4,
+        C5,
+        CSharp5,
+        D5,
+        DSharp5,
+        E5,
+        F5,
+        FSharp5,
+        G5,
+        GSharp5,
+        A5,
+        ASharp5,
+        B5,
+        C6,
+        CSharp6,
+        D6,
+        DSharp6,
+        E6,
+        F6,
+        FSharp6,
+        G6,
+        GSharp6,
+        A6,
+        ASharp6,
+        B6,
+        C7,
+        CSharp7,
+        D7,
+        DSharp7,
+        E7,
+        F7,
+        FSharp7,
+        G7,
+        GSharp7,
+        A7,
+        ASharp7,
+        B7,
+        C8,
+        CSharp8,
+        D8,
+        DSharp8,
+        E8,
+        F8,
+        FSharp8,
+        G8,
+        GSharp8,
+        A8,
+        ASharp8,
+        B8
     }
 }

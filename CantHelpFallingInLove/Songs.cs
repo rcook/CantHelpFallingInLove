@@ -116,7 +116,7 @@
             get { return s_cantHelpFallingInLove; }
         }
 
-        private static Note Note(decimal pitch, int duration)
+        private static Note Note(Pitch pitch, int duration)
         {
             return new Note(pitch, duration);
         }
